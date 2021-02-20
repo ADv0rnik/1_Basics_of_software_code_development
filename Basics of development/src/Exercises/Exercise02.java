@@ -21,8 +21,7 @@ public class Exercise02 {
         } else {
             double y = Math.sqrt((z));
             double f = ((b + y)/(2 * a)) - a3 * c + b_2;
-            String result = String.format("%.2f", f);
-            System.out.println(result);
+            System.out.printf("%.2f", f);
         }
     }
 
