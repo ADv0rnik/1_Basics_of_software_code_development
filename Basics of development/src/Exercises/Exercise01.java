@@ -5,7 +5,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 
 //Define function z = ((a-3)*b/2) + c
-public class Exercises01 {
+public class Exercise01 {
     public static void main(String[] args) throws IOException {
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
         double a = Double.parseDouble(reader.readLine());
