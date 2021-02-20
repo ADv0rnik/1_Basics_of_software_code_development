@@ -12,7 +12,6 @@ public class Exercise03 {
         double x = toRadians(Double.parseDouble(reader.readLine()));
         double y = toRadians(Double.parseDouble(reader.readLine()));
         double x_y = x * y;
-        System.out.println(x_y);
         double result;
 
         double sin_x = sin(x);
