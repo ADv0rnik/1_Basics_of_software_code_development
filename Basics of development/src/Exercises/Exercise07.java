@@ -4,18 +4,22 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-//Define value of max{min(a, b), min(c, d)}
+//Define if a triangle exists
 public class Exercise07 {
     public static void main(String[] args) throws IOException {
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
         int a = Integer.parseInt(reader.readLine());
         int b = Integer.parseInt(reader.readLine());
-        int c = Integer.parseInt(reader.readLine());
-        int d = Integer.parseInt(reader.readLine());
+        final int SUM_OF_ANGLES = 180;
 
-        int min1 = Math.min(a,b);
-        int min2 = Math.min(c,d);
-        int max = Math.max(min1,min2);
-        System.out.println(max);
+        int c = SUM_OF_ANGLES - (a + b);
+        int sum = a + b + c;
+        if (sum > SUM_OF_ANGLES){
+            System.out.println("The triangle doesn't exist");
+        } else if (a == 90 || b == 90 || c == 90) {
+            System.out.println("The triangle exists. Right triangle");
+        } else {
+            System.out.println("The triangle exists");
+        }
     }
 }
