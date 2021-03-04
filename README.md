@@ -12,3 +12,7 @@ Exercise04. Swap the fractional and integer parts of a number and display the re
 Exercise05. Convert T value presented in seconds to hours, minutes and seconds presented in the following format: HH h MM min SS sec;
 
 Exercise06. Find out if the given point (x,y) belongs to a polygon;
+
+Exercise07. Define if a triangle exists;
+
+Exercise08. Define value of max{min(a, b), min(c, d)}
