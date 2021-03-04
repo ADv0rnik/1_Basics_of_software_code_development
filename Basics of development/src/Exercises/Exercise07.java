@@ -13,8 +13,7 @@ public class Exercise07 {
         final int SUM_OF_ANGLES = 180;
 
         int c = SUM_OF_ANGLES - (a + b);
-        int sum = a + b + c;
-        if (sum > SUM_OF_ANGLES){
+        if(a >= SUM_OF_ANGLES || b >= SUM_OF_ANGLES){
             System.out.println("The triangle doesn't exist");
         } else if (a == 90 || b == 90 || c == 90) {
             System.out.println("The triangle exists. Right triangle");
