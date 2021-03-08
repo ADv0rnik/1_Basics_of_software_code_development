@@ -16,3 +16,7 @@ Exercise06. Find out if the given point (x,y) belongs to a polygon;
 Exercise07. Define if a triangle exists;
 
 Exercise08. Define value of max{min(a, b), min(c, d)}
+
+Exercise09. Define if three points belong to one line
+
+Exercise10. Define if a brick will pass through a hole
