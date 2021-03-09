@@ -20,3 +20,7 @@ Exercise08. Define value of max{min(a, b), min(c, d)}
 Exercise09. Define if three points belong to one line
 
 Exercise10. Define if a brick will pass through a hole
+
+Exercise11. Define the value of the function
+
+Exercise12. Write a program which will summarize all the numbers up to the number entered by the user
