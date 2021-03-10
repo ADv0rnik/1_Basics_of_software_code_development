@@ -28,3 +28,5 @@ Exercise12. Write a program which will summarize all the numbers up to the numbe
 Exercise13. Define the value of the function
 
 Exercise14. Find the sum of the squares of the first hundred numbers
+
+Exercise15. Define product of the squares of the first two hundred numbers.
