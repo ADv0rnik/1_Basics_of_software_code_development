@@ -4,7 +4,7 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-//Find the sum of those members of the series whose modulus is greater than or equal to a given e.
+//Find the sum of those members of the series which have modulus greater than or equal to a given e.
 public class Exercise16 {
     public static void main(String[] args) throws IOException {
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
