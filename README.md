@@ -32,3 +32,5 @@ Exercise14. Find the sum of the squares of the first hundred numbers
 Exercise15. Define product of the squares of the first two hundred numbers.
 
 Exercise16. Find the sum of those members of the series which have modulus greater than or equal to a given e.
+
+Exercise17. Show on the screen symbol and corresponding numerical designation in the computer memory
