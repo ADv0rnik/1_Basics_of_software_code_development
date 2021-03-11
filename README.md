@@ -36,3 +36,5 @@ Exercise16. Find the sum of those members of the series which have modulus great
 Exercise17. Show on the screen symbol and corresponding numerical designation in the computer memory
 
 Exercise18. For each natural number in the range from m to n get all divisors, except 1 and the number itself
+
+Exercise19. Define numbers included in both the first and second values
